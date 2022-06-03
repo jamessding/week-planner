@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Week Planner</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <div class="container">
+    <div class="row center">
+      <h1>Weekly Planner</h1>
+    </div>
+    <div class="row left-padding view">
+      <div class="column-seven">
+        <button class="week-button sunday">Sunday</button>
+      </div>
+      <div class="column-seven">
+        <button class="week-button monday">Monday</button>
+      </div>
+      <div class="column-seven">
+        <button class="week-button tuesday">Tuesday</button>
+      </div>
+      <div class="column-seven">
+        <button class="week-button wednesday">Wednesday</button>
+      </div>
+      <div class="column-seven">
+        <button class="week-button thursday">Thursday</button>
+      </div>
+      <div class="column-seven">
+        <button class="week-button friday">Friday</button>
+      </div>
+      <div class="column-seven">
+        <button class="week-button saturday">Saturday</button>
+      </div>
+    </div>
+    <div class="row center">
+      <button class="entry-button top-margin">Add Entry</button>
+    </div>
+  </div>
+  <div class="view">
+    <div class="row center">
+      <h3>Schedule Events for Monday</h3>
+    </div>
+    <div class="row">
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>10:00</td>
+            <td>Practice algorithms</td>
+          </tr>
+          <tr>
+            <td>12:00</td>
+            <td>Go for a run</td>
+          </tr>
+      </table>
+    </div>
+  </div>
   <script src="main.js"></script>
 </body>
+
 </html>

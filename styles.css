@@ -1,0 +1,56 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-seven {
+  flex-basis: calc(100% / 7);
+}
+
+.week-button {
+  background-color: white;
+  width: 5.5rem;
+  height: 4rem;
+}
+
+.center {
+  justify-content: center;
+}
+
+.left-padding {
+  padding-left: 2rem;
+}
+
+.top-margin {
+  margin-top: 2rem;
+}
+
+.entry-button {
+  background-color: white;
+  width: 10rem;
+  height: 2rem;
+  box-shadow: 2px 2px #000;
+}
+
+th {
+  background-color: rgb(204, 204, 204);
+  color: black;
+}
+
+tr:nth-child(2n-1) {
+  background-color: #d2d2d2;
+}
