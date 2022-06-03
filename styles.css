@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 } */
+.hidden {
+  display: none !important;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -58,4 +61,70 @@ table {
 
 tr:nth-child(2n-1) {
   background-color: #efeeee;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.modal-overlay {
+  background: black;
+  opacity: 0.7;
+}
+
+.modal-box-pos {
+  position: fixed;
+  top: 30vh;
+  width: 100%;
+  height: 200px;
+}
+
+.modal-box {
+  background-color: white;
+  width: 30rem;
+  height: 100%;
+  border-radius: 5px;
+  justify-content: center;
+  margin: auto;
+  padding: 15px;
+}
+
+.modal-text {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 15px auto;
+}
+
+.time {
+  margin-left: 1rem;
+}
+
+.time-select-row {
+  margin-bottom: 1rem;
+}
+
+.description {
+  resize: none;
+  width: 100%;
+  height: 5rem;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  justify-content: flex-end;
+  margin-left: auto;
 }
