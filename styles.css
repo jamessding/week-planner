@@ -51,6 +51,11 @@ th {
   color: black;
 }
 
+table {
+  border: 2px solid black;
+  width: 100%;
+}
+
 tr:nth-child(2n-1) {
-  background-color: #d2d2d2;
+  background-color: #efeeee;
 }
