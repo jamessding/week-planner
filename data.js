@@ -1,9 +1,14 @@
 /* exported data */
 
 var data = {
-  view: '',
   editing: null,
-  entries: [],
+  sundayEntries: [],
+  mondayEntries: [],
+  tuesdayEntries: [],
+  wednesdayEntries: [],
+  thursdayEntries: [],
+  fridayEntries: [],
+  saturdayEntries: [],
   nextEntryId: 1
 };
 
@@ -15,6 +20,7 @@ if (previousDataJSON !== null) {
 function storage(event) {
   var dataJSON = JSON.stringify(data);
   localStorage.setItem('userData', dataJSON);
+  // localStorage.clear();
 }
 
 window.addEventListener('beforeunload', storage);
